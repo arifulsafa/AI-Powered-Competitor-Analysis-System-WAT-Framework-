@@ -1,0 +1,29 @@
+# Secrets & credentials
+.env
+credentials.json
+token.json
+
+# Temporary processing files
+.tmp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Business data (may contain sensitive info)
+business_profile.json
+
+# Brand assets — uncomment to gitignore if using a real company logo
+# brand/logo.png
+# brand/logo.svg
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

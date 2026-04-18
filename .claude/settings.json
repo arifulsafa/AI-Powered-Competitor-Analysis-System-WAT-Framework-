@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd * && python tools/save_business_profile.py *)",
+      "Bash(cd * && python3 tools/save_business_profile.py *)",
+      "Bash(cd * && python tools/discover_competitors.py)",
+      "Bash(cd * && python3 tools/discover_competitors.py)",
+      "Bash(cd * && python tools/research_competitor.py *)",
+      "Bash(cd * && python3 tools/research_competitor.py *)",
+      "Bash(cd * && python tools/generate_report.py *)",
+      "Bash(cd * && python3 tools/generate_report.py *)",
+      "Bash(cd * && DYLD_LIBRARY_PATH=* python3 tools/generate_report.py *)",
+      "Bash(pip3 install *)",
+      "Bash(pip install *)",
+      "Bash(brew install *)",
+      "Bash(ls -la *)"
+    ]
+  }
+}

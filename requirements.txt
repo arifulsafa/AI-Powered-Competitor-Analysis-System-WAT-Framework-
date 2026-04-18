@@ -1,0 +1,30 @@
+# WAT Framework — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Environment variable management
+python-dotenv
+
+# HTTP requests
+requests
+
+# Google APIs (Sheets, Slides, Drive)
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+
+# Data handling
+pandas
+openpyxl
+
+# Web scraping
+beautifulsoup4
+
+# PDF generation (HTML/CSS → PDF, supports logos, custom fonts, brand colors)
+weasyprint
+
+# HTML templating for the report
+jinja2
+
+# Anthropic SDK (for structured extraction and summarization inside tools)
+anthropic
